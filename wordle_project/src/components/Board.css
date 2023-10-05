@@ -1,0 +1,58 @@
+.board-container {
+    margin-top: 3rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.row3 :first-child {
+    font-size: 15px;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+}
+.row3 :last-child {
+    font-size: 15px;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+}
+.key {
+    border-radius: 0.3rem;
+    background-color: rgba(128, 128, 128, 0.719);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.3rem;
+    font-weight: bold;
+    border: 0.1rem solid none;
+    padding: 1.5rem 0.3rem 1.5rem 0.3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    font-weight: bold;
+    border: 1px solid rgba(94, 87, 87, 0.397);
+    padding: 0.4rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+#correct {
+    background-color: rgba(0, 128, 0, 0.753);
+}
+#almost {
+    background-color: rgba(255, 238, 0, 0.568);
+}
+#wrong {
+    background-color: black;
+}

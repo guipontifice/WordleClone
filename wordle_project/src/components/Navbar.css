@@ -1,0 +1,17 @@
+:root {
+    color: var(--letter-color, white);
+
+}
+.header {
+    height: 0px;
+    padding: 10px 0 5px 0;
+    text-align: center;
+    width: 100vw;
+}
+
+h1 {
+    color: var(--letter-color);
+    font-size: 2.2rem;
+    border-bottom: 1px solid gray;
+    width: 100%;
+}
